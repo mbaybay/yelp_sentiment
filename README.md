@@ -1,10 +1,10 @@
-# [Sentiment analysis and classification of user reviews.]
+# [Sentiment analysis and classification of user reviews.](https://github.com/cs686-bigdata/p3-d2-bluedragonz/blob/master/User%20Review%20Analysis.ipynb)
 
 [Project Description](https://www.cs.usfca.edu/~mmalensek/courses/cs686/projects/project-3.html)
 
 ---
 ## Analysis
-(https://github.com/cs686-bigdata/p3-d2-bluedragonz/blob/master/User%20Review%20Analysis.ipynb)
+
 Using Spark's ML package, we created a classification model that identifies reviews as positive or negative based on their content. To preprocess the reviews, the model first tokenizes the text into vectors of words and filters out unimportant, common words (i.e. "the", "that", "and"). It then creates a vector for each review that holds a frequency of each word in the training data. For example, if "yummy" was seen 302 times in the training data, it would be represented by 302 in the vector. Typically, less common words in a text corpus are the terms that carry the meaning and sentiment behind a sentence. Thus, the model then assigns lower weight to words that have higher frequency, and higher weight to those with lower frequency, following the concept of [*Term Frequency - Inverse Document Frequency*](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) (TF-IDF). For classification, the model uses logistic regression with elastic net regularization. 
 
 *Additional Data Info:*
