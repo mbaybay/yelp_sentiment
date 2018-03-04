@@ -1,4 +1,4 @@
-# [Sentiment analysis and classification of user reviews.](https://github.com/cs686-bigdata/p3-d2-bluedragonz/blob/master/User%20Review%20Analysis.ipynb)
+# [Sentiment analysis and classification of user reviews.](https://github.com/mbaybay/yelp_sentiment/blob/master/User%20Review%20Analysis.ipynb)
 
 [Project Description](https://www.cs.usfca.edu/~mmalensek/courses/cs686/projects/project-3.html)
 
